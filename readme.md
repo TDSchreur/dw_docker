@@ -1,10 +1,10 @@
 1. Maar een directory voor je app aan; 
 ```
-> mkdir MyApp
+mkdir MyApp
 ```
 2. Ga naar de directory
 ```
-> cd MyApp
+cd MyApp
 ```
 3. Genereer de applicatie
 ``` powershell
@@ -42,9 +42,9 @@ naar
 ```
 7. Even om een bug heenwerken... installeer de ef tools
 ```
-> dotnet tool install --global dotnet-ef
+dotnet tool install --global dotnet-ef
 ```
-Verwijder de migrations directory en maar een nieuwe initiele migration aan
+Verwijder de ***migrations directory*** en maak een nieuwe initiele migration aan
 ```
 dotnet ef migrations add InitialCreate
 ```
@@ -92,9 +92,9 @@ exec $run_cmd
 ```
 9. Build 
 ```
-> docker-compose build
+docker-compose build
 ```
 10. Start
 ``` 
-> docker-compose up
+docker-compose up
 ```
